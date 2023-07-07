@@ -1,11 +1,11 @@
 import './App.css';
-import Button from './components/UI/atom/button'
+import VerticalNavBar from './components/UI/molecule/verticalNavBar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button btnText={'Hello'} btnVariant={'default'}/>
+        <VerticalNavBar/>
         
       </header>
     </div>
