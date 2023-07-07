@@ -1,0 +1,6 @@
+- File names should start with small capital letters e.g button
+- Function name should be with capital letters of the file name e.g if file name is "button" function name will be "Button".
+- Work with atomic structure.
+- Always export a default function.
+- Appropriate variable names.
+- Appropriate Branch names with capital letters.
