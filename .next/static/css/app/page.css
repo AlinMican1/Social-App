@@ -1,0 +1,51 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[4].oneOf[12].use[3]!./src/components/UI/molecule/verticalNavBar.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.container{
+    width: 300px;
+    background-color: rgba(0, 255, 255, 0);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container p{
+    margin-top: 2px;
+    margin-bottom: -5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    
+}
+.container p::before, .container p::after{
+    content: "";
+    height: 1px;
+    background-color: white;
+    display: block;
+}
+
+.container h3{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[4].oneOf[12].use[3]!./src/components/UI/atom/button.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.default{
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px; 
+    border-radius: 20px;
+}
+
+.default:hover{
+    background-color: aqua;
+}
+
+
