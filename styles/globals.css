@@ -15,6 +15,13 @@ code {
 
 .App {
   text-align: center;
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+  
+  
 }
 
 .App-logo {
@@ -51,7 +58,21 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.container-content{
+  min-height: 100vh; /* minimum height = screen height */
+  min-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303436;
+  border-right: 1px solid rgb(232, 97, 192);
+  border-left: 1px solid rgb(232, 97, 192); ;
+  
+}
+
 /* CHANGE DEFAULTS HERE */
+
 p{
   color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
